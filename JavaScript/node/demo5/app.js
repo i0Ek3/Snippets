@@ -7,7 +7,9 @@
 
 //fetchUrl('http://www.google.com', function (err, content) {
     //fuck Baidu
+    //<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lurongkai/anti-baidu/js/anti-baidu-latest.min.js" charset="UTF-8"></script>
 //});
+
 var async = require('async');
 
 var concurrencyCount = 0;
