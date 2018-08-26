@@ -6,7 +6,7 @@
 
 
 # basic
-brew install git zsh tmux 
+brew install git zsh tmux fish tree screenfetch 
 
 
 # set zsh as default bash
@@ -27,7 +27,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 
 # common sf install
 # brew cask install xxxx
-brew install gawk cmake llvm proxychains-ng python3 go java fish wget gpg ant maven tomcat jetty hub mysql postgresql gradle mpg123 git-flow
+brew install gawk cmake llvm proxychains-ng python3 go java wget gpg ant maven tomcat jetty hub mysql redis postgresql gradle mpg123 git-flow
 brew postinstall python3
 # ruby env rvm
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB ; \curl -sSL https://get.rvm.io | bash -s stable
@@ -38,18 +38,15 @@ brew install youtube-dl
 brew cask install mark-text
 # finder-go
 curl -fsSL https://raw.githubusercontent.com/onmyway133/FinderGo/master/install.sh | sh
-# ReLaXed
-npm i -g relaxedjs
-
 
 
 ## common 
-brew cask install docker qq skype thunder google-chrome iterm2 android-platform-tools
+brew cask install docker google-chrome iterm2 android-platform-tools
 
 
 # pip
 sudo easy_install pip ; pip install virtualenv django
-sudo pip3 install gplaycli asciinema NetEase-Music rebound-cli
+sudo pip3 install asciinema NetEase-Music rebound-cli
 
 
 # vimplus
