@@ -14,7 +14,9 @@
 **Please ensure your linux installed ghc successed before build,if not please run *sudo apt install ghc* to install it.**
 
 ## Site
-[learnyouhaskell](http://learnyouahaskell.com/chapters "learnyouhaskell")
+
+- [official site](https://www.haskell.org/)
+- [learnyouhaskell](http://learnyouahaskell.com/chapters "learnyouhaskell")
 
 ## Log
 
