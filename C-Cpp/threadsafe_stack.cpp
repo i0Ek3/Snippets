@@ -24,7 +24,7 @@ public:
                 data = other.data;
         }
 
-        threadsafe_stack& operator=(const threadsafe_stack&) = detele;
+        threadsafe_stack& operator=(const threadsafe_stack&) = delete;
 
         void push(T new_value) {
                 std::lock_guard<std::mutex> lock(m);
