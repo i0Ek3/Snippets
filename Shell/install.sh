@@ -40,6 +40,11 @@ else
     git clone https://github.com/chxuan/vimplus.git && cd vimplus && ./install.sh
 fi
 
+## Linuxbrew
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+
+
 
 ## mini Game
 ## 俄罗斯方块 打蜜蜂
