@@ -63,7 +63,10 @@ func main() { // function, if there is init(), then first run func is init().
 
 ```
 
+## Note
 
+- 不要试图make()一个结构体，这样会引发一个编译错误
+- 不要试图new()一个映射，这样会引发运行时错误
 
 
 
