@@ -13,5 +13,9 @@ A series of code snippets without language limits.
 - [Lisp]() Not yet!
 - [Solidity]()
 - [Makefile]()
-- []()
+- [Lua]()
+- [Perl]()
+- [Rust]()
+- [Ruby]()
+- [Kotlin]()
 - comming soon...
